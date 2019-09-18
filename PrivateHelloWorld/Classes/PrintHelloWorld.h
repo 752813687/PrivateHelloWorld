@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void) doSthWhatYouWantWithMoney:(float) moneyCount;
 
++ (void) onlyFor0_2_0;
 
 @end
 
