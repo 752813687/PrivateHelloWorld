@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void) doSthWhatYouWantWithMoney:(float) moneyCount;
 
++ (void) dongcidaci;
+
 @end
 
 NS_ASSUME_NONNULL_END

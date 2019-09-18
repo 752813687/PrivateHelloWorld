@@ -24,4 +24,9 @@
     }
 }
 
++ (void)dongcidaci
+{
+    NSLog(@"黑起来");
+}
+
 @end
