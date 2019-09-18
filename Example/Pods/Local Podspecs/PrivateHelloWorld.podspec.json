@@ -1,0 +1,22 @@
+{
+  "name": "PrivateHelloWorld",
+  "version": "0.1.0",
+  "summary": "PrivateHelloWorld test",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/752813687/PrivateHelloWorld",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "752813687": "752813687@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/752813687/PrivateHelloWorld.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PrivateHelloWorld/Classes/**/*"
+}
