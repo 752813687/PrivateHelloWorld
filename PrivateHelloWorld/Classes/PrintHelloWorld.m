@@ -15,9 +15,19 @@
     NSLog(@"hello world");
 }
 
+
 + (void)dongcidaci
 {
     NSLog(@"让我们一起嗨起来");
+}
+
++ (void)doSthWhatYouWantWithMoney:(float)moneyCount
+{
+    if (moneyCount > 100) {
+        NSLog(@"无所不能");
+    } else {
+        NSLog(@"食屎去吧");
+    }
 }
 
 @end
