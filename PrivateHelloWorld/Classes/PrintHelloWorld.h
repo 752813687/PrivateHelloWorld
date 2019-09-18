@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (void) printHelloWorld;
 
++ (void) doSthWhatYouWantWithMoney:(float) moneyCount;
+
 @end
 
 NS_ASSUME_NONNULL_END
