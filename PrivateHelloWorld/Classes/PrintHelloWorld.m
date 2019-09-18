@@ -15,4 +15,9 @@
     NSLog(@"hello world");
 }
 
++ (void)dongcidaci
+{
+    NSLog(@"让我们一起嗨起来");
+}
+
 @end
