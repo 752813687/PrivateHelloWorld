@@ -21,6 +21,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
     [PrintHelloWorld printHelloWorld];
     NSLog(@"xxiiiix");
+    NSLog(@"xxiiiix");
+    NSLog(@"xxiiiix");
+    NSLog(@"xxiiiix");
 }
 
 - (void)didReceiveMemoryWarning
