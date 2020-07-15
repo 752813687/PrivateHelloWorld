@@ -20,6 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [PrintHelloWorld printHelloWorld];
+<<<<<<< master
     NSLog(@"xxiiiix");
 <<<<<<< master
 =======
@@ -28,6 +29,9 @@
     NSLog(@"xxiiiix");
     NSLog(@"xxiiiix");
 >>>>>>>  撒
+=======
+   
+>>>>>>> 删除打印
 }
 
 - (void)didReceiveMemoryWarning
