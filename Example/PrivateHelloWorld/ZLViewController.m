@@ -18,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSLog(@"手动阀");
 }
 
 - (void)didReceiveMemoryWarning
