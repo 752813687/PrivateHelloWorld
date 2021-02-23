@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04F8B4FA25E4A884003F3FD8 /* ZLObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8B4F925E4A884003F3FD8 /* ZLObject2.m */; };
+		04F8B50C25E4AAA8003F3FD8 /* ZLobject222.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8B50B25E4AAA8003F3FD8 /* ZLobject222.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		04F8B4F825E4A884003F3FD8 /* ZLObject2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLObject2.h; sourceTree = "<group>"; };
 		04F8B4F925E4A884003F3FD8 /* ZLObject2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLObject2.m; sourceTree = "<group>"; };
+		04F8B50A25E4AAA8003F3FD8 /* ZLobject222.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLobject222.h; sourceTree = "<group>"; };
+		04F8B50B25E4AAA8003F3FD8 /* ZLobject222.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLobject222.m; sourceTree = "<group>"; };
 		1F4A6D5C8A0A0F43BD0B1316 /* PrivateHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PrivateHelloWorld.podspec; path = ../PrivateHelloWorld.podspec; sourceTree = "<group>"; };
 		2052FD852DD56C1A2BEDB224 /* Pods_PrivateHelloWorld_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateHelloWorld_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		346B1397684CD632C0B663A6 /* Pods_PrivateHelloWorld_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateHelloWorld_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +145,8 @@
 				6003F5A6195388D20070C39A /* ZLViewController.m */,
 				04F8B4F825E4A884003F3FD8 /* ZLObject2.h */,
 				04F8B4F925E4A884003F3FD8 /* ZLObject2.m */,
+				04F8B50A25E4AAA8003F3FD8 /* ZLobject222.h */,
+				04F8B50B25E4AAA8003F3FD8 /* ZLobject222.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -437,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZLAppDelegate.m in Sources */,
+				04F8B50C25E4AAA8003F3FD8 /* ZLobject222.m in Sources */,
 				04F8B4FA25E4A884003F3FD8 /* ZLObject2.m in Sources */,
 				6003F5A7195388D20070C39A /* ZLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
