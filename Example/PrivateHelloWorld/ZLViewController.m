@@ -23,6 +23,10 @@
     NSLog(@"手动阀");
     NSLog(@"手动阀");
     NSLog(@"x");
+    NSLog(@"x");
+
+    NSLog(@"x");
+
 }
 
 - (void)didReceiveMemoryWarning
