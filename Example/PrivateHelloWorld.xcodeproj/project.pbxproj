@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F8B4FA25E4A884003F3FD8 /* ZLObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F8B4F925E4A884003F3FD8 /* ZLObject2.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F4A6D5C8A0A0F43BD0B1316 /* PrivateHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivateHelloWorld.podspec; path = ../PrivateHelloWorld.podspec; sourceTree = "<group>"; };
+		04F8B4F825E4A884003F3FD8 /* ZLObject2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLObject2.h; sourceTree = "<group>"; };
+		04F8B4F925E4A884003F3FD8 /* ZLObject2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLObject2.m; sourceTree = "<group>"; };
+		1F4A6D5C8A0A0F43BD0B1316 /* PrivateHelloWorld.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PrivateHelloWorld.podspec; path = ../PrivateHelloWorld.podspec; sourceTree = "<group>"; };
 		2052FD852DD56C1A2BEDB224 /* Pods_PrivateHelloWorld_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateHelloWorld_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		346B1397684CD632C0B663A6 /* Pods_PrivateHelloWorld_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateHelloWorld_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		352BD86D5A7B29DF717005EB /* Pods-PrivateHelloWorld_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateHelloWorld_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateHelloWorld_Tests/Pods-PrivateHelloWorld_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,8 +67,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		895C42A9E76D971F80E6ED9D /* Pods-PrivateHelloWorld_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateHelloWorld_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateHelloWorld_Tests/Pods-PrivateHelloWorld_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B7990AC9859DAE053F3FF73B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B8F002306CBAF790A525D511 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B7990AC9859DAE053F3FF73B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B8F002306CBAF790A525D511 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F72EE299952E85462C1347B2 /* Pods-PrivateHelloWorld_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateHelloWorld_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateHelloWorld_Example/Pods-PrivateHelloWorld_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZLViewController.h */,
 				6003F5A6195388D20070C39A /* ZLViewController.m */,
+				04F8B4F825E4A884003F3FD8 /* ZLObject2.h */,
+				04F8B4F925E4A884003F3FD8 /* ZLObject2.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -260,6 +265,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -431,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZLAppDelegate.m in Sources */,
+				04F8B4FA25E4A884003F3FD8 /* ZLObject2.m in Sources */,
 				6003F5A7195388D20070C39A /* ZLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
